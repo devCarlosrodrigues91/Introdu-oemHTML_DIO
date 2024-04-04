@@ -1,3 +1,7 @@
+img {
+    margin: auto;
+    height: 100px;
+}
 html, body {
     margin: 0;
 }
@@ -6,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
@@ -24,13 +27,26 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+   min-width:150px;
+   background-color: #08adca;
 }
 .content {
     background-color: white;
-    min-height: 300px;
+    min-height: 100px;
     padding: 20px;
+}
+.content p{
+
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.content2{
+    position: relative;
+    bottom: 600px;
+    right:1px;
+    background-color: white;
+    padding-left: 20px;
+    width: 500px;
 }
 .footer {
     background-color: rgb(99, 56, 240);
