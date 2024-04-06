@@ -1,12 +1,13 @@
 img {
     margin: auto;
-    height: 100px;
+    height: 150px;
 }
 html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to right,white,#08adca,#039bb6);
+    /**background-color: #08adca;**/
     display: flex;
     justify-content: center;
 }
@@ -14,7 +15,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    /**background-color: #08adca;**/
 }
 .main {
     display: flex;
@@ -22,17 +23,36 @@ body {
     width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    position: relative;
+    top: 180px;
+    width: 130px;
+    /**background-color: aqua;**/
     padding: 10px 20px 0px;
 }
+.menu > ul{
+    list-style-type: none;
+    padding-left: 7px;
+    margin-bottom: 30px;
+}
+a:link{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:#039bb6;  
+}
+a:visited{
+    color: #039bb6;
+}
 .header {
-   min-width:150px;
-   background-color: #08adca;
+    position: relative;
+    right: 170px;
+    width: 100%;
+    min-width:150px;
+    background-color: #08adca;
 }
 .content {
-    background-color: white;
+    color: #013a44;
     min-height: 100px;
+    width: 700px;
     padding: 20px;
 }
 .content p{
@@ -40,15 +60,33 @@ body {
     margin-top: 7px;
     margin-bottom: 7px;
 }
-.content2{
-    position: relative;
-    bottom: 600px;
-    right:1px;
-    background-color: white;
-    padding-left: 20px;
-    width: 500px;
-}
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    position: relative;
+    top: 90px;
+    //*min-height: 150px;**/
+}
+.dados {
+    position: relative;
+    left: 400px;
+    
+}
+.dados2{
+    position: relative;
+    top: 77px;
+}
+.dados p {
+    font-size: 16px;
+    margin: 0px;
+}
+.dados h5{
+    font-size: 18px;
+    margin: 0px;
+}
+.dados2 p {
+    
+    margin: 0px;
+}
+.dados2 h5{
+    font-size: 16px;
+    margin: 0px;
 }
