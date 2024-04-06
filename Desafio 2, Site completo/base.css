@@ -1,12 +1,12 @@
 img {
-    margin: auto;
+    margin-left: 20px;
     height: 150px;
 }
 html, body {
     margin: 0;
 }
 body {
-    background-image: linear-gradient(to right,white,#08adca,#039bb6);
+    background-image: linear-gradient(to right,white,#08adca,#04bada);
     /**background-color: #08adca;**/
     display: flex;
     justify-content: center;
@@ -43,11 +43,9 @@ a:visited{
     color: #039bb6;
 }
 .header {
-    position: relative;
+    position: ;
     right: 170px;
-    width: 100%;
     min-width:150px;
-    background-color: #08adca;
 }
 .content {
     color: #013a44;
@@ -72,7 +70,7 @@ a:visited{
 }
 .dados2{
     position: relative;
-    top: 77px;
+    top: 95px;
 }
 .dados p {
     font-size: 16px;
