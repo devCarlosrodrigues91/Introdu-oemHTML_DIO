@@ -1,13 +1,8 @@
-img {
-    margin-left: 200px;
-    height: 150px;
-}
 html, body {
-    margin: 0;
-}
+        margin: 0;
+    }
 body {
-    background-image: linear-gradient(to right,white,#08adca,#04bada);
-    /**background-color: #08adca;**/
+    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
 }
@@ -15,7 +10,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    /**background-color: #08adca;**/
+    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -23,68 +18,47 @@ body {
     width: 85%;
 }
 .menu {
-    position: relative;
-    top: 180px;
-    width: 130px;
-    /**background-color: aqua;**/
+    width: 15%;
+    background-color: aqua;
     padding: 10px 20px 0px;
 }
-.menu > ul{
-    list-style-type: none;
-    padding-left: 7px;
-    margin-bottom: 30px;
-}
-a:link{
-    margin-bottom: 10px;
-    text-decoration: none;
-    color:#039bb6;  
-}
-a:visited{
-    color: #039bb6;
-}
 .header {
-    position: relative;
-    right: 170px;
-    min-width:150px;
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
 }
 .content {
-    color: #013a44;
-    min-height: 100px;
-    width: 700px;
+    background-color: white;
+    min-height: 300px;
     padding: 20px;
-}
-.content p{
-
-    margin-top: 7px;
-    margin-bottom: 7px;
 }
 .footer {
     position: relative;
     top: 90px;
-    //*min-height: 150px;**/
+    min-height: 150px;
 }
-.dados {
+/*---------------------*/
+/*Minhas alterações no css*/
+img.equipe{
+position: relative;
+left: 350px;
+}
+/*Menu e rodapé*/
+ul{
     position: relative;
-    left: 400px;
-    
+    top: 150px;
 }
-.dados2{
+/*Links de menu*/
+a{
+    color:black ;
+}
+a:visited{
+color: black;
+}
+/*Cabeçalho*/
+h1, h5{
     position: relative;
-    top: 95px;
-}
-.dados p {
-    font-size: 16px;
-    margin: 0px;
-}
-.dados h5{
-    font-size: 18px;
-    margin: 0px;
-}
-.dados2 p {
-    
-    margin: 0px;
-}
-.dados2 h5{
-    font-size: 16px;
-    margin: 0px;
+    top: 150px;
+    left: 340px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
